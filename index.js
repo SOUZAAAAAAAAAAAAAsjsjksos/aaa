@@ -34,4 +34,4 @@ const r = new Discord.RichPresence()
      client.user.setPresence({ status: "dnd" }); //status (online, dnd, idle)
 })
 
-client.login(process.env.TOKEN)
+client.login('Nzc1MzYyNDQ5NDQ0NDM4MDI3.GWMd4N.Xfp4PFJxS2BL0eREOMFT3xoWAcVQnaC5YhhqBg')
