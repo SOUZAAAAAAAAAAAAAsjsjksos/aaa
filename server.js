@@ -10,6 +10,7 @@ const dbConfig = {
     host: 'sp-01.magnohost.com.br',
     user: 'u1828_Ks6Bi75rzt',
     password: 'm!g^rNe!IaCGDMNJu.k2OCLx',
+    port: '3306',
     database: 's1828_bot',
 };
 
