@@ -31,7 +31,7 @@ async function checkForNewBans() {
 }
 
 async function notifyDiscord(ban) {
-    const webhookURL = process.env.DISCORD_WEBHOOK_URL;
+    const webhookURL = 'https://discord.com/api/webhooks/1333470999039049890/D-FTCvjuBirFe47q16MwhDz0d-KgXRogmIfNNYXgcvfb6P1ycBkLF-agM0yqbVh0Klar';
     const embed = {
         embeds: [{
             title: "🚨 Jogador Banido!",
