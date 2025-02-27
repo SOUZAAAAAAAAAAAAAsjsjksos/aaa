@@ -1,18 +1,17 @@
 {
-  "name": "nodejs",
+  "name": "punish-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API para monitorar bans do servidor de Minecraft",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@types/node": "^18.0.6",
-    "discord.js-selfbot-v13": "^2.10.1",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "node-fetch": "^3.2.6"
-  }
+    "mysql2": "^3.3.3"
+  },
+  "author": "Seu Nome",
+  "license": "MIT"
 }
